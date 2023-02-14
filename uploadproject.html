@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- MDB icon -->
+     <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+     <!-- Font Awesome -->
+     <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+     />
+     <!-- Google Fonts Roboto -->
+     <link
+       rel="stylesheet"
+       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+     />
+     <!-- MDB -->
+     <link rel="stylesheet" href="css/mdb.min.css" />
+     <style>
+        .container{
+          margin-top: 50px;
+            width: 50%;
+            border: 1px solid rgb(228, 245, 242);
+            border-radius: 10px;
+        }
+        .form-group{
+            margin-bottom: 20px;
+        }
+        button{
+            margin-bottom: 20px;
+        }
+        .navbar-brand{
+          margin-left: 20p;
+
+        }
+        body{
+          background-color: hsl(120, 56, 180);
+        }
+
+     </style>
+    
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">ITrepo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Register supervisor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+</header>
+<body >
+    <div class="container">
+        <h2 class="header">Add a project</h2>
+        <form class="form-inline">
+            <div class="form-group">
+              <label for="projectTitle">Project Title</label>
+              <input type="text" class="form-control" id="projectTitle" placeholder="Enter project title">
+            </div>
+            <div class="form-group">
+              <label for="studentName">Student Name</label>
+              <input type="text" class="form-control" id="studentName" placeholder="Enter student name">
+            </div>
+            <div class="form-group">
+              <label for="projectYear">Project Year</label>
+              <input type="text" class="form-control" id="projectYear" placeholder="Enter year project was completed">
+            </div>
+            <div class="form-group">
+              <label for="supervisorName">Supervisor Name</label>
+              <input type="text" class="form-control" id="supervisorName" placeholder="Enter supervisor name">
+            </div>
+            <div class="form-group">
+              <label for="pdfFile">PDF File</label>
+              <input type="file" class="form-control-file" id="pdfFile">
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+          </form>
+          
+        
+
+    </div>
+    
+</body>
+</html>
